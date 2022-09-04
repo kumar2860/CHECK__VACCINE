@@ -82,7 +82,11 @@ function cowinData(pincode) {
       } 
 
 
-    } else{
+    } 
+    else if(this.status === 404){
+        alert("some error occured")
+    }
+    else{
         alert("enter valid pincode")
     }
   };
